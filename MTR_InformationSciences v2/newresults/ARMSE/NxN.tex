@@ -1,0 +1,230 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{graphicx}
+\usepackage{lscape}
+\title{Output tables for the test of Multiple comparisons.}
+\author{}
+\date{\today}
+\begin{document}
+\begin{landscape}
+\pagestyle{empty}
+\maketitle
+\thispagestyle{empty}
+\section{Average rankings of Friedman test}
+
+
+
+Average ranks obtained by applying the Friedman procedure
+
+\begin{table}[!htp]
+\centering
+\begin{tabular}{|c|c|}\hline
+Algorithm&Ranking\\\hline
+SVRCC & 2.5417\\
+MORF & 7.3333\\
+ST & 5.7708\\
+MTS & 5.8125\\
+MTSC & 6.0625\\
+RC & 7.625\\
+ERC & 6.0208\\
+ERCC & 4.8542\\
+SVR & 5.0625\\
+SVRRC & 3.9167\\
+\hline
+\end{tabular}
+\caption{Average Rankings of the algorithms}
+\end{table}
+
+Friedman statistic considering reduction performance (distributed according to chi-square with 9 degrees of freedom: 53.679545.
+
+P-value computed by Friedman Test: 2.1753014944891902E-8.\newline
+
+Iman and Davenport statistic considering reduction performance (distributed according to F-distribution with 9 and 207 degrees of freedom: 7.606124.
+
+P-value computed by Iman and Daveport Test: 1.2751365120826391E-9.\newline
+
+
+
+\pagebreak
+
+\section{Post hoc comparisons}
+
+Results achieved on post hoc comparisons for $\alpha = 0.05$, $\alpha = 0.10$ and adjusted p-values.
+
+\subsection{P-values for $\alpha=0.05$}
+
+\begin{table}[!htp]
+\centering\scriptsize
+\begin{tabular}{ccccc}
+$i$&algorithms&$z=(R_0 - R_i)/SE$&$p$&Holm\\
+\hline45&SVRCC vs. RC&5.816122&0&0.001111\\
+44&SVRCC vs. MORF&5.48241&0&0.001136\\
+43&RC vs. SVRRC&4.242909&0.000022&0.001163\\
+42&SVRCC vs. MTSC&4.028379&0.000056&0.00119\\
+41&SVRCC vs. ERC&3.980706&0.000069&0.00122\\
+40&MORF vs. SVRRC&3.909197&0.000093&0.00125\\
+39&SVRCC vs. MTS&3.742341&0.000182&0.001282\\
+38&SVRCC vs. ST&3.694668&0.00022&0.001316\\
+37&RC vs. ERCC&3.170263&0.001523&0.001351\\
+36&RC vs. SVR&2.931897&0.003369&0.001389\\
+35&SVRCC vs. SVR&2.884224&0.003924&0.001429\\
+34&MORF vs. ERCC&2.836551&0.00456&0.001471\\
+33&SVRCC vs. ERCC&2.645859&0.008148&0.001515\\
+32&MORF vs. SVR&2.598186&0.009372&0.001563\\
+31&MTSC vs. SVRRC&2.455166&0.014082&0.001613\\
+30&ERC vs. SVRRC&2.407493&0.016062&0.001667\\
+29&MTS vs. SVRRC&2.169127&0.030073&0.001724\\
+28&ST vs. SVRRC&2.121454&0.033884&0.001786\\
+27&ST vs. RC&2.121454&0.033884&0.001852\\
+26&MTS vs. RC&2.073781&0.0381&0.001923\\
+25&RC vs. ERC&1.835415&0.066444&0.002\\
+24&MORF vs. ST&1.787742&0.073818&0.002083\\
+23&MTSC vs. RC&1.787742&0.073818&0.002174\\
+22&MORF vs. MTS&1.740069&0.081847&0.002273\\
+21&SVRCC vs. SVRRC&1.573213&0.115669&0.002381\\
+20&MORF vs. ERC&1.501704&0.133174&0.0025\\
+19&MORF vs. MTSC&1.45403&0.145938&0.002632\\
+18&MTSC vs. ERCC&1.382521&0.166812&0.002778\\
+17&ERC vs. ERCC&1.334848&0.181926&0.002941\\
+16&SVR vs. SVRRC&1.311011&0.189854&0.003125\\
+15&MTSC vs. SVR&1.144155&0.252559&0.003333\\
+14&MTS vs. ERCC&1.096482&0.272868&0.003571\\
+13&ERC vs. SVR&1.096482&0.272868&0.003846\\
+12&ERCC vs. SVRRC&1.072645&0.28343&0.004167\\
+11&ST vs. ERCC&1.048809&0.294266&0.004545\\
+10&MTS vs. SVR&0.858116&0.390828&0.005\\
+9&ST vs. SVR&0.810443&0.417685&0.005556\\
+8&ST vs. MTSC&0.333712&0.738597&0.00625\\
+7&MORF vs. RC&0.333712&0.738597&0.007143\\
+6&ST vs. ERC&0.286039&0.774848&0.008333\\
+5&MTS vs. MTSC&0.286039&0.774848&0.01\\
+4&ERCC vs. SVR&0.238366&0.811598&0.0125\\
+3&MTS vs. ERC&0.238366&0.811598&0.016667\\
+2&ST vs. MTS&0.047673&0.961977&0.025\\
+1&MTSC vs. ERC&0.047673&0.961977&0.05\\
+\hline
+\end{tabular}
+\caption{P-values Table for $\alpha=0.05$}
+\end{table}Nemenyi's procedure rejects those hypotheses that have an unadjusted p-value $\le0.001111$.
+
+Holm's procedure rejects those hypotheses that have an unadjusted p-value $\le0.001351$.
+
+\pagebreak
+
+\subsection{P-values for $\alpha=0.10$}
+
+\begin{table}[!htp]
+\centering\scriptsize
+\begin{tabular}{ccccc}
+$i$&algorithms&$z=(R_0 - R_i)/SE$&$p$&Holm\\
+\hline45&SVRCC vs. RC&5.816122&0&0.002222\\
+44&SVRCC vs. MORF&5.48241&0&0.002273\\
+43&RC vs. SVRRC&4.242909&0.000022&0.002326\\
+42&SVRCC vs. MTSC&4.028379&0.000056&0.002381\\
+41&SVRCC vs. ERC&3.980706&0.000069&0.002439\\
+40&MORF vs. SVRRC&3.909197&0.000093&0.0025\\
+39&SVRCC vs. MTS&3.742341&0.000182&0.002564\\
+38&SVRCC vs. ST&3.694668&0.00022&0.002632\\
+37&RC vs. ERCC&3.170263&0.001523&0.002703\\
+36&RC vs. SVR&2.931897&0.003369&0.002778\\
+35&SVRCC vs. SVR&2.884224&0.003924&0.002857\\
+34&MORF vs. ERCC&2.836551&0.00456&0.002941\\
+33&SVRCC vs. ERCC&2.645859&0.008148&0.00303\\
+32&MORF vs. SVR&2.598186&0.009372&0.003125\\
+31&MTSC vs. SVRRC&2.455166&0.014082&0.003226\\
+30&ERC vs. SVRRC&2.407493&0.016062&0.003333\\
+29&MTS vs. SVRRC&2.169127&0.030073&0.003448\\
+28&ST vs. SVRRC&2.121454&0.033884&0.003571\\
+27&ST vs. RC&2.121454&0.033884&0.003704\\
+26&MTS vs. RC&2.073781&0.0381&0.003846\\
+25&RC vs. ERC&1.835415&0.066444&0.004\\
+24&MORF vs. ST&1.787742&0.073818&0.004167\\
+23&MTSC vs. RC&1.787742&0.073818&0.004348\\
+22&MORF vs. MTS&1.740069&0.081847&0.004545\\
+21&SVRCC vs. SVRRC&1.573213&0.115669&0.004762\\
+20&MORF vs. ERC&1.501704&0.133174&0.005\\
+19&MORF vs. MTSC&1.45403&0.145938&0.005263\\
+18&MTSC vs. ERCC&1.382521&0.166812&0.005556\\
+17&ERC vs. ERCC&1.334848&0.181926&0.005882\\
+16&SVR vs. SVRRC&1.311011&0.189854&0.00625\\
+15&MTSC vs. SVR&1.144155&0.252559&0.006667\\
+14&MTS vs. ERCC&1.096482&0.272868&0.007143\\
+13&ERC vs. SVR&1.096482&0.272868&0.007692\\
+12&ERCC vs. SVRRC&1.072645&0.28343&0.008333\\
+11&ST vs. ERCC&1.048809&0.294266&0.009091\\
+10&MTS vs. SVR&0.858116&0.390828&0.01\\
+9&ST vs. SVR&0.810443&0.417685&0.011111\\
+8&ST vs. MTSC&0.333712&0.738597&0.0125\\
+7&MORF vs. RC&0.333712&0.738597&0.014286\\
+6&ST vs. ERC&0.286039&0.774848&0.016667\\
+5&MTS vs. MTSC&0.286039&0.774848&0.02\\
+4&ERCC vs. SVR&0.238366&0.811598&0.025\\
+3&MTS vs. ERC&0.238366&0.811598&0.033333\\
+2&ST vs. MTS&0.047673&0.961977&0.05\\
+1&MTSC vs. ERC&0.047673&0.961977&0.1\\
+\hline
+\end{tabular}
+\caption{P-values Table for $\alpha=0.10$}
+\end{table}Nemenyi's procedure rejects those hypotheses that have an unadjusted p-value $\le0.002222$.
+
+Holm's procedure rejects those hypotheses that have an unadjusted p-value $\le0.002778$.
+
+\pagebreak
+
+\subsection{Adjusted p-values}
+
+\begin{table}[!htp]
+\centering\scriptsize
+\begin{tabular}{ccccc}
+i&hypothesis&unadjusted $p$&$p_{Neme}$&$p_{Holm}$\\
+\hline1&SVRCC vs .RC&0&0&0\\
+2&SVRCC vs .MORF&0&0.000002&0.000002\\
+3&RC vs .SVRRC&0.000022&0.000993&0.000949\\
+4&SVRCC vs .MTSC&0.000056&0.002527&0.002359\\
+5&SVRCC vs .ERC&0.000069&0.003092&0.002817\\
+6&MORF vs .SVRRC&0.000093&0.004167&0.003704\\
+7&SVRCC vs .MTS&0.000182&0.008204&0.00711\\
+8&SVRCC vs .ST&0.00022&0.009908&0.008367\\
+9&RC vs .ERCC&0.001523&0.068535&0.056351\\
+10&RC vs .SVR&0.003369&0.151604&0.121283\\
+11&SVRCC vs .SVR&0.003924&0.176571&0.137333\\
+12&MORF vs .ERCC&0.00456&0.205216&0.155052\\
+13&SVRCC vs .ERCC&0.008148&0.366677&0.268897\\
+14&MORF vs .SVR&0.009372&0.42173&0.299897\\
+15&MTSC vs .SVRRC&0.014082&0.633688&0.43654\\
+16&ERC vs .SVRRC&0.016062&0.722811&0.481874\\
+17&MTS vs .SVRRC&0.030073&1.353286&0.872117\\
+18&ST vs .SVRRC&0.033884&1.524762&0.948741\\
+19&ST vs .RC&0.033884&1.524762&0.948741\\
+20&MTS vs .RC&0.0381&1.714484&0.990591\\
+21&RC vs .ERC&0.066444&2.989987&1.661104\\
+22&MORF vs .ST&0.073818&3.321791&1.771622\\
+23&MTSC vs .RC&0.073818&3.321791&1.771622\\
+24&MORF vs .MTS&0.081847&3.683109&1.800631\\
+25&SVRCC vs .SVRRC&0.115669&5.205125&2.429058\\
+26&MORF vs .ERC&0.133174&5.992816&2.663474\\
+27&MORF vs .MTSC&0.145938&6.567204&2.772819\\
+28&MTSC vs .ERCC&0.166812&7.506534&3.002614\\
+29&ERC vs .ERCC&0.181926&8.18668&3.092746\\
+30&SVR vs .SVRRC&0.189854&8.543431&3.092746\\
+31&MTSC vs .SVR&0.252559&11.365169&3.78839\\
+32&MTS vs .ERCC&0.272868&12.279056&3.820151\\
+33&ERC vs .SVR&0.272868&12.279056&3.820151\\
+34&ERCC vs .SVRRC&0.28343&12.754361&3.820151\\
+35&ST vs .ERCC&0.294266&13.241975&3.820151\\
+36&MTS vs .SVR&0.390828&17.58727&3.908282\\
+37&ST vs .SVR&0.417685&18.795847&3.908282\\
+38&ST vs .MTSC&0.738597&33.236863&5.908776\\
+39&MORF vs .RC&0.738597&33.236863&5.908776\\
+40&ST vs .ERC&0.774848&34.868179&5.908776\\
+41&MTS vs .MTSC&0.774848&34.868179&5.908776\\
+42&ERCC vs .SVR&0.811598&36.521888&5.908776\\
+43&MTS vs .ERC&0.811598&36.521888&5.908776\\
+44&ST vs .MTS&0.961977&43.288954&5.908776\\
+45&MTSC vs .ERC&0.961977&43.288954&5.908776\\
+\hline
+\end{tabular}
+\caption{Adjusted $p$-values}
+\end{table}
+
+\end{landscape}
+\end{document}

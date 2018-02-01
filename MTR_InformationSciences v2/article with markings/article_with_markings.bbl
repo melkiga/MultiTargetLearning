@@ -1,0 +1,410 @@
+\begin{thebibliography}{51}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Aho et~al.(2012)Aho, Zenko, Dzeroski, and Elomaa}]{Aho2012}
+\bibinfo{author}{T.~Aho}, \bibinfo{author}{B.~Zenko},
+  \bibinfo{author}{S.~Dzeroski}, \bibinfo{author}{T.~Elomaa},
+\newblock \bibinfo{title}{{Multi-Target Regression with Rule Ensembles}},
+\newblock \bibinfo{journal}{Journal of Machine Learning Research}
+  \bibinfo{volume}{13} (\bibinfo{year}{2012}) \bibinfo{pages}{2267--2407}.
+%Type = Article
+\bibitem[{Appice and Dzeroski(2007)}]{Appice2014}
+\bibinfo{author}{A.~Appice}, \bibinfo{author}{S.~Dzeroski},
+\newblock \bibinfo{title}{Stepwise induction of multi-target model trees},
+\newblock \bibinfo{journal}{European Conference of Machine Learning}
+  \bibinfo{volume}{Lecture Notes on Artificial Intelligence 4701}
+  (\bibinfo{year}{2007}) \bibinfo{pages}{502--509}.
+%Type = Article
+\bibitem[{Baxter(1997)}]{Baxter1997}
+\bibinfo{author}{J.~Baxter},
+\newblock \bibinfo{title}{A bayesian/information theoretic model of learning to
+  learn via multiple task sampling},
+\newblock \bibinfo{journal}{Machine Learning} \bibinfo{volume}{28}
+  (\bibinfo{year}{1997}) \bibinfo{pages}{7--39}.
+%Type = Article
+\bibitem[{Ben-David and Schuller(2003)}]{BenDavic2003}
+\bibinfo{author}{S.~Ben-David}, \bibinfo{author}{R.~Schuller},
+\newblock \bibinfo{title}{Exploiting task relatedness for multiple task
+  learning},
+\newblock \bibinfo{journal}{In: Proceedings of the Sixteenth Annual Conference
+  on Learning Theory}  (\bibinfo{year}{2003}) \bibinfo{pages}{567–--580}.
+%Type = Article
+\bibitem[{Borchani et~al.(2015)Borchani, Varando, Bielza, and
+  Larra{\~n}aga}]{Borchani2015}
+\bibinfo{author}{H.~Borchani}, \bibinfo{author}{G.~Varando},
+  \bibinfo{author}{C.~Bielza}, \bibinfo{author}{P.~Larra{\~n}aga},
+\newblock \bibinfo{title}{{A survey on multi-output regression}},
+\newblock \bibinfo{journal}{WIREs Data Mining Knowledge Discovery}
+  \bibinfo{volume}{5} (\bibinfo{year}{2015}) \bibinfo{pages}{216--233}.
+%Type = Book
+\bibitem[{Boyd and Vandenberghe(2004)}]{Boyd}
+\bibinfo{author}{S.~Boyd}, \bibinfo{author}{L.~Vandenberghe},
+  \bibinfo{title}{Convex Optimization}, \bibinfo{publisher}{Cambridge
+  University Press}, \bibinfo{year}{2004}.
+%Type = Article
+\bibitem[{Breiman(1996)}]{Breiman1996}
+\bibinfo{author}{L.~Breiman},
+\newblock \bibinfo{title}{Bagging predictors},
+\newblock \bibinfo{journal}{Machine Learning} \bibinfo{volume}{24}
+  (\bibinfo{year}{1996}) \bibinfo{pages}{123--140}.
+%Type = Article
+\bibitem[{Cano et~al.(2016)Cano, Luna, Gibaja, and Ventura}]{2016-INS-LAIM}
+\bibinfo{author}{A.~Cano}, \bibinfo{author}{J.~Luna},
+  \bibinfo{author}{E.~Gibaja}, \bibinfo{author}{S.~Ventura},
+\newblock \bibinfo{title}{{LAIM discretization for multi-label data}},
+\newblock \bibinfo{journal}{Information Sciences} \bibinfo{volume}{330}
+  (\bibinfo{year}{2016}) \bibinfo{pages}{370--384}.
+%Type = Article
+\bibitem[{Caruana(1997)}]{Caruana1997}
+\bibinfo{author}{R.~Caruana},
+\newblock \bibinfo{title}{Multitask learning},
+\newblock \bibinfo{journal}{Machine Learning} \bibinfo{volume}{28}
+  (\bibinfo{year}{1997}) \bibinfo{pages}{41--75}.
+%Type = Article
+\bibitem[{Chang and Lin(2011)}]{CC01a}
+\bibinfo{author}{C.-C. Chang}, \bibinfo{author}{C.-J. Lin},
+\newblock \bibinfo{title}{{LIBSVM}: A library for support vector machines},
+\newblock \bibinfo{journal}{ACM Transactions on Intelligent Systems and
+  Technology} \bibinfo{volume}{2} (\bibinfo{year}{2011})
+  \bibinfo{pages}{27:1--27:27}. \bibinfo{note}{Software available at
+  \url{http://www.csie.ntu.edu.tw/~cjlin/libsvm}}.
+%Type = Article
+\bibitem[{Charte et~al.(2014)Charte, Rivera, Del~Jesus, and
+  Herrera}]{Charte20141842}
+\bibinfo{author}{F.~Charte}, \bibinfo{author}{A.~Rivera},
+  \bibinfo{author}{M.~Del~Jesus}, \bibinfo{author}{F.~Herrera},
+\newblock \bibinfo{title}{{LI-MLC: A label inference methodology for addressing
+  high dimensionality in the label space for multilabel classification}},
+\newblock \bibinfo{journal}{IEEE Transactions on Neural Networks and Learning
+  Systems} \bibinfo{volume}{25} (\bibinfo{year}{2014})
+  \bibinfo{pages}{1842--1854}.
+%Type = Article
+\bibitem[{Chen et~al.(2015)Chen, Pedrycz, Ha, and Ma}]{Chen20152502}
+\bibinfo{author}{J.~Chen}, \bibinfo{author}{W.~Pedrycz},
+  \bibinfo{author}{M.~Ha}, \bibinfo{author}{L.~Ma},
+\newblock \bibinfo{title}{Set-valued samples based support vector regression
+  and its applications},
+\newblock \bibinfo{journal}{Expert Systems with Applications}
+  \bibinfo{volume}{42} (\bibinfo{year}{2015}) \bibinfo{pages}{2502--2509}.
+%Type = Book
+\bibitem[{Cortes and Vapnik(1995)}]{Vapnik1995}
+\bibinfo{author}{C.~Cortes}, \bibinfo{author}{V.~Vapnik}, \bibinfo{title}{The
+  Nature of Statistical Learning Theory}, \bibinfo{publisher}{Springer},
+  \bibinfo{address}{New York}, \bibinfo{year}{1995}.
+%Type = Article
+\bibitem[{Derrac et~al.(2011)Derrac, Garc{\'i}a, Molina, and
+  Herrera}]{Derrac2011}
+\bibinfo{author}{J.~Derrac}, \bibinfo{author}{S.~Garc{\'i}a},
+  \bibinfo{author}{D.~Molina}, \bibinfo{author}{F.~Herrera},
+\newblock \bibinfo{title}{A practical tutorial on the use of nonparametric
+  statistical tests as a methodology for comparing evolutionary and swarm
+  intelligence algorithms},
+\newblock \bibinfo{journal}{Swarm and Evolutionary Computation}
+  \bibinfo{volume}{1} (\bibinfo{year}{2011}) \bibinfo{pages}{3--18}.
+%Type = Article
+\bibitem[{Ding et~al.(2015)Ding, Cheng, Pedrycz, and Hao}]{Ding20152521}
+\bibinfo{author}{Y.~Ding}, \bibinfo{author}{L.~Cheng},
+  \bibinfo{author}{W.~Pedrycz}, \bibinfo{author}{K.~Hao},
+\newblock \bibinfo{title}{Global nonlinear kernel prediction for large data set
+  with a particle swarm-optimized interval support vector regression},
+\newblock \bibinfo{journal}{IEEE Transactions on Neural Networks and Learning
+  Systems} \bibinfo{volume}{26} (\bibinfo{year}{2015})
+  \bibinfo{pages}{2521--2534}.
+%Type = Article
+\bibitem[{Drucker et~al.(1997)Drucker, Burges, Kaufman, Smola, and
+  Vapnik}]{Drucker1997}
+\bibinfo{author}{H.~Drucker}, \bibinfo{author}{C.~Burges},
+  \bibinfo{author}{L.~Kaufman}, \bibinfo{author}{A.~Smola},
+  \bibinfo{author}{V.~Vapnik},
+\newblock \bibinfo{title}{Support vector regression machines},
+\newblock \bibinfo{journal}{In: Proceedings of the Advances in Neural
+  Information Processing Systems}  (\bibinfo{year}{1997})
+  \bibinfo{pages}{155–--161}.
+%Type = Article
+\bibitem[{Dunn(1961)}]{Dunn1961}
+\bibinfo{author}{O.~Dunn},
+\newblock \bibinfo{title}{Multiple comparisons among means},
+\newblock \bibinfo{journal}{J. Amer. Stat. Assoc.} \bibinfo{volume}{56}
+  (\bibinfo{year}{Mar. 1961}) \bibinfo{pages}{52--64}.
+%Type = Article
+\bibitem[{Friedman et~al.(2010)Friedman, Hastie, and Tibshirani}]{Friedman2010}
+\bibinfo{author}{J.~Friedman}, \bibinfo{author}{T.~Hastie},
+  \bibinfo{author}{R.~Tibshirani},
+\newblock \bibinfo{title}{Regularization paths for generalized linear models
+  via coordinate descent},
+\newblock \bibinfo{journal}{Journal of Statistical Software}
+  \bibinfo{volume}{33} (\bibinfo{year}{2010}) \bibinfo{pages}{1--22}.
+%Type = Article
+\bibitem[{Garc{\'i}a et~al.(2010)Garc{\'i}a, Fern{\'a}ndez, Luengo, and
+  Herrera}]{Garcia20102044}
+\bibinfo{author}{S.~Garc{\'i}a}, \bibinfo{author}{A.~Fern{\'a}ndez},
+  \bibinfo{author}{J.~Luengo}, \bibinfo{author}{F.~Herrera},
+\newblock \bibinfo{title}{{Advanced nonparametric tests for multiple
+  comparisons in the design of experiments in computational intelligence and
+  data mining: Experimental analysis of power}},
+\newblock \bibinfo{journal}{Information Sciences} \bibinfo{volume}{180}
+  (\bibinfo{year}{2010}) \bibinfo{pages}{2044--2064}.
+%Type = Article
+\bibitem[{Garc{\'i}a and Herrera(2008)}]{Garcia2008}
+\bibinfo{author}{S.~Garc{\'i}a}, \bibinfo{author}{F.~Herrera},
+\newblock \bibinfo{title}{An extension on “statistical comparisons of
+  classifiers over multiple data sets” for all pairwise comparisons},
+\newblock \bibinfo{journal}{Journal of Machine Learning Research}
+  \bibinfo{volume}{9} (\bibinfo{year}{2008}) \bibinfo{pages}{2677--2694}.
+%Type = Article
+\bibitem[{Garc{\'i}a et~al.(2008)Garc{\'i}a, Molina, Lozano, and
+  Herrera}]{Garcia2009}
+\bibinfo{author}{S.~Garc{\'i}a}, \bibinfo{author}{D.~Molina},
+  \bibinfo{author}{M.~Lozano}, \bibinfo{author}{F.~Herrera},
+\newblock \bibinfo{title}{{A study on the use of non-parametric tests for
+  analyzing the evolutionary algorithms' behaviour - a case study on the
+  CEC2005 Special Session on Real Parameter Optimization}},
+\newblock \bibinfo{journal}{Heuristics} \bibinfo{volume}{15}
+  (\bibinfo{year}{2008}) \bibinfo{pages}{617--644}.
+%Type = Article
+\bibitem[{Hadavandi et~al.(2015)Hadavandi, Shahrabi, and
+  Shamishirband}]{Hadavandi2015-2}
+\bibinfo{author}{E.~Hadavandi}, \bibinfo{author}{J.~Shahrabi},
+  \bibinfo{author}{S.~Shamishirband},
+\newblock \bibinfo{title}{{A novel Boosted-neural network ensemble for modeling
+  multi-target regression problems}},
+\newblock \bibinfo{journal}{Engineering Applications of Artificial
+  Intelligence} \bibinfo{volume}{45} (\bibinfo{year}{2015})
+  \bibinfo{pages}{204--219}.
+%Type = Article
+\bibitem[{Hadavandi et~al.(2016)Hadavandi, Shahrabi, and
+  Hayashi}]{Hadavandi2015}
+\bibinfo{author}{E.~Hadavandi}, \bibinfo{author}{K.~Shahrabi},
+  \bibinfo{author}{Y.~Hayashi},
+\newblock \bibinfo{title}{{SPMoE: a novel subspace-projected mixture of experts
+  model for multi-target regression problems}},
+\newblock \bibinfo{journal}{Soft Computing} \bibinfo{volume}{20}
+  (\bibinfo{year}{2016}) \bibinfo{pages}{2047--2065}.
+%Type = Article
+\bibitem[{He et~al.(2011)He, Gu, and Wang}]{He2011}
+\bibinfo{author}{J.~He}, \bibinfo{author}{H.~Gu}, \bibinfo{author}{Z.~Wang},
+\newblock \bibinfo{title}{Multi-instance multi-label learning based on gaussian
+  process with application to visual mobile robot navigation},
+\newblock \bibinfo{journal}{Information Sciences} \bibinfo{volume}{190}
+  (\bibinfo{year}{2011}) \bibinfo{pages}{162--177}.
+%Type = Article
+\bibitem[{Jeong and Lee(2009)}]{Jeong2009}
+\bibinfo{author}{M.~Jeong}, \bibinfo{author}{G.~Lee},
+\newblock \bibinfo{title}{Multi-domain spoken language understanding with
+  transfer learning},
+\newblock \bibinfo{journal}{Speech Communication} \bibinfo{volume}{51}
+  (\bibinfo{year}{2009}) \bibinfo{pages}{412--424}.
+%Type = Book
+\bibitem[{Kecman(2001)}]{Kecman}
+\bibinfo{author}{V.~Kecman}, \bibinfo{title}{Learning and Soft Computing:
+  Support Vector Machines, Neural Networks, and Fuzzy Logic Models},
+  \bibinfo{publisher}{MIT Press}, \bibinfo{year}{2001}.
+%Type = Article
+\bibitem[{Kocev and Ceci(2015)}]{Kocev2015}
+\bibinfo{author}{D.~Kocev}, \bibinfo{author}{M.~Ceci},
+\newblock \bibinfo{title}{{Ensembles of Extremely Randomized Trees for
+  Multi-target Regression}},
+\newblock \bibinfo{journal}{Lecture Notes in Computer Science 9356}
+  (\bibinfo{year}{2015}) \bibinfo{pages}{86--100}.
+%Type = Article
+\bibitem[{Kocev et~al.(2009)Kocev, Dzeroski, White, Newell, and
+  Griffioen}]{Kocev2010}
+\bibinfo{author}{D.~Kocev}, \bibinfo{author}{S.~Dzeroski},
+  \bibinfo{author}{M.~White}, \bibinfo{author}{G.~Newell},
+  \bibinfo{author}{P.~Griffioen},
+\newblock \bibinfo{title}{Using single- and multi-target regression trees and
+  ensembles to model a compound index of vegetation condition},
+\newblock \bibinfo{journal}{Ecological Modelling} \bibinfo{volume}{20}
+  (\bibinfo{year}{2009}) \bibinfo{pages}{1159–--1168}.
+%Type = Article
+\bibitem[{Kocev et~al.(2007)Kocev, Vens, Struyf, and Dzeroski}]{Kocev2007}
+\bibinfo{author}{D.~Kocev}, \bibinfo{author}{C.~Vens},
+  \bibinfo{author}{J.~Struyf}, \bibinfo{author}{S.~Dzeroski},
+\newblock \bibinfo{title}{{Ensembles of Multi-Objective Decision Trees}},
+\newblock \bibinfo{journal}{Springer, Heidelberg}  (\bibinfo{year}{2007})
+  \bibinfo{pages}{86--100}.
+%Type = Article
+\bibitem[{Kocev et~al.(2013)Kocev, Vens, Struyf, and Dzeroski}]{Kocev2013}
+\bibinfo{author}{D.~Kocev}, \bibinfo{author}{C.~Vens},
+  \bibinfo{author}{J.~Struyf}, \bibinfo{author}{S.~Dzeroski},
+\newblock \bibinfo{title}{Tree ensembles for predicting structured outputs},
+\newblock \bibinfo{journal}{Pattern Recognition} \bibinfo{volume}{43}
+  (\bibinfo{year}{2013}) \bibinfo{pages}{817--833}.
+%Type = Article
+\bibitem[{Lee and Kim(2015)}]{Lee201580}
+\bibinfo{author}{J.~Lee}, \bibinfo{author}{D.-W. Kim},
+\newblock \bibinfo{title}{Memetic feature selection algorithm for multi-label
+  classification},
+\newblock \bibinfo{journal}{Information Sciences} \bibinfo{volume}{293}
+  (\bibinfo{year}{2015}) \bibinfo{pages}{80--96}.
+%Type = Article
+\bibitem[{Li et~al.(2016)Li, Li, Zhai, Wang, and Zhang}]{Li2016827}
+\bibinfo{author}{H.~Li}, \bibinfo{author}{D.~Li}, \bibinfo{author}{Y.~Zhai},
+  \bibinfo{author}{S.~Wang}, \bibinfo{author}{J.~Zhang},
+\newblock \bibinfo{title}{A novel attribute reduction approach for multi-label
+  data based on rough set theory},
+\newblock \bibinfo{journal}{Information Sciences} \bibinfo{volume}{367-368}
+  (\bibinfo{year}{2016}) \bibinfo{pages}{827--847}.
+%Type = Misc
+\bibitem[{Lichman(2013)}]{Lichman:2013}
+\bibinfo{author}{M.~Lichman}, \bibinfo{title}{{UCI} machine learning
+  repository}, \bibinfo{year}{2013}. \URLprefix
+  \url{http://archive.ics.uci.edu/ml}.
+%Type = Article
+\bibitem[{Liu et~al.(2010)Liu, Xu, Zheng, Xue, Cao, and Yang}]{Lui2010}
+\bibinfo{author}{Q.~Liu}, \bibinfo{author}{Q.~Xu}, \bibinfo{author}{V.~Zheng},
+  \bibinfo{author}{H.~Xue}, \bibinfo{author}{Z.~Cao},
+  \bibinfo{author}{Q.~Yang},
+\newblock \bibinfo{title}{Multi-task learning for cross-platform sirna efficacy
+  prediction: an in-silico study},
+\newblock \bibinfo{journal}{BMC Bioinformatics} \bibinfo{volume}{11}
+  (\bibinfo{year}{2010}) \bibinfo{pages}{181--196}.
+%Type = Article
+\bibitem[{Melki and Kecman(2016)}]{Melki2016}
+\bibinfo{author}{G.~Melki}, \bibinfo{author}{V.~Kecman},
+\newblock \bibinfo{title}{Speeding up online training of l1 support vector
+  machines},
+\newblock \bibinfo{journal}{IEEE SoutheastConf}  (\bibinfo{year}{2016}).
+%Type = Article
+\bibitem[{P{\'e}rez et~al.(2002)P{\'e}rez, Camps, Soria, P{\'e}rez, Figueiras,
+  and Art\'es}]{msvr}
+\bibinfo{author}{F.~P{\'e}rez}, \bibinfo{author}{G.~Camps},
+  \bibinfo{author}{E.~Soria}, \bibinfo{author}{J.~P{\'e}rez},
+  \bibinfo{author}{A.~Figueiras}, \bibinfo{author}{A.~Art\'es},
+\newblock \bibinfo{title}{Multi-dimensional function approximation and
+  regression estimation},
+\newblock \bibinfo{journal}{Artificial Neural Networks}  (\bibinfo{year}{2002})
+  \bibinfo{pages}{757--762}.
+%Type = Article
+\bibitem[{Qian et~al.(2015)Qian, Wang, Ye, and Davidson}]{Qian2015594}
+\bibinfo{author}{B.~Qian}, \bibinfo{author}{X.~Wang}, \bibinfo{author}{J.~Ye},
+  \bibinfo{author}{I.~Davidson},
+\newblock \bibinfo{title}{A reconstruction error based framework for
+  multi-label and multi-view learning},
+\newblock \bibinfo{journal}{IEEE Transactions on Knowledge and Data
+  Engineering} \bibinfo{volume}{27} (\bibinfo{year}{2015})
+  \bibinfo{pages}{594--607}.
+%Type = Article
+\bibitem[{Read et~al.(2014)Read, Bielza, and Larranaga}]{Read20141720}
+\bibinfo{author}{J.~Read}, \bibinfo{author}{C.~Bielza},
+  \bibinfo{author}{P.~Larranaga},
+\newblock \bibinfo{title}{Multi-dimensional classification with super-classes},
+\newblock \bibinfo{journal}{IEEE Transactions on Knowledge and Data
+  Engineering} \bibinfo{volume}{26} (\bibinfo{year}{2014})
+  \bibinfo{pages}{1720--1733}.
+%Type = Article
+\bibitem[{Spyromitros-Xioufis et~al.(2014)Spyromitros-Xioufis, Tsoumakas,
+  Groves, and Vlahavas}]{Spyromitros2014}
+\bibinfo{author}{E.~Spyromitros-Xioufis}, \bibinfo{author}{G.~Tsoumakas},
+  \bibinfo{author}{W.~Groves}, \bibinfo{author}{I.~Vlahavas},
+\newblock \bibinfo{title}{{Multi-Label Classification Methods for Multi-Target
+  Regression}},
+\newblock \bibinfo{journal}{Cornell University Library}
+  (\bibinfo{year}{2014}).
+%Type = Article
+\bibitem[{Spyromitros-Xioufis et~al.(2016)Spyromitros-Xioufis, Tsoumakas,
+  Groves, and Vlahavas}]{Xioufis2016}
+\bibinfo{author}{E.~Spyromitros-Xioufis}, \bibinfo{author}{G.~Tsoumakas},
+  \bibinfo{author}{W.~Groves}, \bibinfo{author}{I.~Vlahavas},
+\newblock \bibinfo{title}{Multi-target regression via input space expansion:
+  Treating targets as inputs},
+\newblock \bibinfo{journal}{Machine Learning} \bibinfo{volume}{104}
+  (\bibinfo{year}{2016}) \bibinfo{pages}{55--98}.
+%Type = Article
+\bibitem[{Tsoumakas et~al.(2011)Tsoumakas, Spyromitros-Xioufis, Vilcek, and
+  Vlahavas}]{mulan}
+\bibinfo{author}{G.~Tsoumakas}, \bibinfo{author}{E.~Spyromitros-Xioufis},
+  \bibinfo{author}{J.~Vilcek}, \bibinfo{author}{I.~Vlahavas},
+\newblock \bibinfo{title}{Mulan: A java library for multi-label learning},
+\newblock \bibinfo{journal}{Journal of Machine Learning Research}
+  \bibinfo{volume}{12} (\bibinfo{year}{2011}) \bibinfo{pages}{2411--2414}.
+%Type = Article
+\bibitem[{Tsoumakas et~al.(2014)Tsoumakas, Spyromitros-Xioufis, Vrekou, and
+  Vlahavas}]{Tsoumakas2014}
+\bibinfo{author}{G.~Tsoumakas}, \bibinfo{author}{E.~Spyromitros-Xioufis},
+  \bibinfo{author}{A.~Vrekou}, \bibinfo{author}{I.~Vlahavas},
+\newblock \bibinfo{title}{Multi-target regression via random linear target
+  combinations},
+\newblock \bibinfo{journal}{Machine Learning and Knowledge Discovery in
+  Databases} \bibinfo{volume}{8726} (\bibinfo{year}{2014})
+  \bibinfo{pages}{225--240}.
+%Type = Article
+\bibitem[{Wilcoxon(1945)}]{Wilcoxon1945}
+\bibinfo{author}{F.~Wilcoxon},
+\newblock \bibinfo{title}{Individual comparisons by ranking methods},
+\newblock \bibinfo{journal}{Biometr. Bull.} \bibinfo{volume}{1}
+  (\bibinfo{year}{Dec. 1945}) \bibinfo{pages}{80--83}.
+%Type = Book
+\bibitem[{Witten et~al.(2011)Witten, Frank, and Hall}]{weka}
+\bibinfo{author}{I.~Witten}, \bibinfo{author}{E.~Frank},
+  \bibinfo{author}{M.~Hall}, \bibinfo{title}{Data Mining: Practical Machine
+  Learning Tools and Techniques}, \bibinfo{edition}{3rd edition} ed.,
+  \bibinfo{publisher}{Morgan Kaufmann}, \bibinfo{year}{2011}.
+%Type = Article
+\bibitem[{Wu et~al.(2015)Wu, Ye, Zhang, Chow, and Ho}]{Wu2015430}
+\bibinfo{author}{Q.~Wu}, \bibinfo{author}{Y.~Ye}, \bibinfo{author}{H.~Zhang},
+  \bibinfo{author}{T.~Chow}, \bibinfo{author}{S.-S. Ho},
+\newblock \bibinfo{title}{{ML-TREE: A tree-structure-based approach to
+  multilabel learning}},
+\newblock \bibinfo{journal}{IEEE Transactions on Neural Networks and Learning
+  Systems} \bibinfo{volume}{26} (\bibinfo{year}{2015})
+  \bibinfo{pages}{430--443}.
+%Type = Article
+\bibitem[{Xiong et~al.(2014)Xiong, Bao, and Hu}]{Xiong2014}
+\bibinfo{author}{T.~Xiong}, \bibinfo{author}{Y.~Bao}, \bibinfo{author}{Z.~Hu},
+\newblock \bibinfo{title}{{Multiple-output support vector regression with a
+  firefly algorithm for interval-valued stock price index forecasting}},
+\newblock \bibinfo{journal}{Knowledge-Based Systems} \bibinfo{volume}{55}
+  (\bibinfo{year}{2014}) \bibinfo{pages}{87--100}.
+%Type = Article
+\bibitem[{Xu et~al.(2013)Xu, An, Qiao, Zhu, and Li}]{Xu2013}
+\bibinfo{author}{S.~Xu}, \bibinfo{author}{X.~An}, \bibinfo{author}{X.~Qiao},
+  \bibinfo{author}{L.~Zhu}, \bibinfo{author}{L.~Li},
+\newblock \bibinfo{title}{Multi-output least-squares support vector regression
+  machines},
+\newblock \bibinfo{journal}{Pattern Recognition} \bibinfo{volume}{34}
+  (\bibinfo{year}{2013}) \bibinfo{pages}{1078--1084}.
+%Type = Article
+\bibitem[{Zhang and Zhou(2014)}]{Zhang20141819}
+\bibinfo{author}{M.-L. Zhang}, \bibinfo{author}{Z.-H. Zhou},
+\newblock \bibinfo{title}{A review on multi-label learning algorithms},
+\newblock \bibinfo{journal}{IEEE Transactions on Knowledge and Data
+  Engineering} \bibinfo{volume}{26} (\bibinfo{year}{2014})
+  \bibinfo{pages}{1819--1837}.
+%Type = Article
+\bibitem[{Zhang et~al.(2012)Zhang, Liu, and Shi}]{Zhang2012}
+\bibinfo{author}{W.~Zhang}, \bibinfo{author}{X.~Liu}, \bibinfo{author}{D.~Shi},
+\newblock \bibinfo{title}{Multi-output ls-svr machine in extended feature
+  space},
+\newblock \bibinfo{journal}{Proceedings of the 2012 IEEE International
+  Conference on Computational Intelligence for Measurement Systems and
+  Applications}  (\bibinfo{year}{2012}) \bibinfo{pages}{130--134}.
+%Type = Article
+\bibitem[{Zhao et~al.(2015)Zhao, Wang, and Li}]{Zhao2015160}
+\bibinfo{author}{Y.-P. Zhao}, \bibinfo{author}{K.-K. Wang},
+  \bibinfo{author}{F.~Li},
+\newblock \bibinfo{title}{A pruning method of refining recursive reduced least
+  squares support vector regression},
+\newblock \bibinfo{journal}{Information Sciences} \bibinfo{volume}{296}
+  (\bibinfo{year}{2015}) \bibinfo{pages}{160--174}.
+%Type = Article
+\bibitem[{Zhu et~al.(2017)Zhu, Yang, Gao, Xu, Xu, and Gao}]{Zhu2017292}
+\bibinfo{author}{F.~Zhu}, \bibinfo{author}{J.~Yang}, \bibinfo{author}{J.~Gao},
+  \bibinfo{author}{C.~Xu}, \bibinfo{author}{S.~Xu}, \bibinfo{author}{C.~Gao},
+\newblock \bibinfo{title}{Finding the samples near the decision plane for
+  support vector learning},
+\newblock \bibinfo{journal}{Information Sciences} \bibinfo{volume}{382-383}
+  (\bibinfo{year}{2017}) \bibinfo{pages}{292--307}.
+
+\end{thebibliography}

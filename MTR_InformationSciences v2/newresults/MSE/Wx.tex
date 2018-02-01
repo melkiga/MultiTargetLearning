@@ -1,0 +1,703 @@
+\documentclass[a4paper,10pt]{article}
+\title{Wilcoxon Signed Ranks test.}
+\date{\today}
+\author{KEEL non-parametric statistical module}
+\begin{document}
+
+\pagestyle{empty}
+\maketitle
+\thispagestyle{empty}
+
+
+
+\section{Detailed results for SVRCC}
+
+
+\subsection{Results}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|c|c|}
+\hline
+ VS & $R^{+}$ & $R^{-}$ & Exact P-value & Asymptotic P-value \\ \hline 
+MORF & 268.0 & 32.0 & 3.224E-4 & 0.00071\\ \hline 
+ST & 241.0 & 59.0 & 0.00792 & 0.008941\\ \hline 
+MTS & 224.0 & 76.0 & 0.03398 & 0.03329\\ \hline 
+MTSC & 226.0 & 74.0 & 0.02914 & 0.028837\\ \hline 
+RC & 263.0 & 37.0 & 6.498E-4 & 0.001183\\ \hline 
+ERC & 234.0 & 66.0 & 0.015044 & 0.015766\\ \hline 
+ERCC & 224.0 & 76.0 & 0.03398 & 0.03329\\ \hline 
+SVR & 262.0 & 38.0 & 7.424E-4 & 0.001308\\ \hline 
+SVRRC & 245.0 & 55.0 & 0.00533 & 0.006361\\ \hline 
+
+\end{tabular}
+\caption{Results obtained by the Wilcoxon test for algorithm SVRCC}
+\end{table}
+
+\subsection{Confidence intervals for Median of diferences}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.90 & Confidence interval & Exact confidence \\ \hline 
+MORF & [-0.44425 , -0.11495] & 0.9049\\ \hline 
+ST & [-0.40205 , -0.037] & 0.9049\\ \hline 
+MTS & [-0.40985 , -0.0333] & 0.9049\\ \hline 
+MTSC & [-0.365 , -0.03055] & 0.9049\\ \hline 
+RC & [-0.50745 , -0.09335] & 0.9049\\ \hline 
+ERC & [-0.43815 , -0.0318] & 0.9049\\ \hline 
+ERCC & [-0.35335 , -0.02165] & 0.9049\\ \hline 
+SVR & [-0.08015 , -0.02525] & 0.9049\\ \hline 
+SVRRC & [-0.03535 , -0.00795] & 0.9049\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm SVRCC ($\alpha$=0.90)}
+\end{table}
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.95 & Confidence interval & Exact confidence \\ \hline 
+MORF & [-0.4789 , -0.10185] & 0.95094\\ \hline 
+ST & [-0.45065 , -0.02695] & 0.95094\\ \hline 
+MTS & [-0.4577 , -0.01665] & 0.95094\\ \hline 
+MTSC & [-0.38195 , -0.01115] & 0.95094\\ \hline 
+RC & [-0.5322 , -0.0658] & 0.95094\\ \hline 
+ERC & [-0.4681 , -0.0185] & 0.95094\\ \hline 
+ERCC & [-0.36935 , -0.0092] & 0.95094\\ \hline 
+SVR & [-0.0867 , -0.02] & 0.95094\\ \hline 
+SVRRC & [-0.039 , -0.0061] & 0.95094\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm SVRCC ($\alpha$=0.95)}
+\end{table}
+
+ \clearpage 
+
+
+\section{Detailed results for MORF}
+
+
+\subsection{Results}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|c|c|}
+\hline
+ VS & $R^{+}$ & $R^{-}$ & Exact P-value & Asymptotic P-value \\ \hline 
+SVRCC & 32.0 & 268.0 & $\geq$ 0.2 & 1\\ \hline 
+ST & 128.0 & 172.0 & $\geq$ 0.2 & 1\\ \hline 
+MTS & 133.0 & 167.0 & $\geq$ 0.2 & 1\\ \hline 
+MTSC & 128.0 & 172.0 & $\geq$ 0.2 & 1\\ \hline 
+RC & 182.0 & 118.0 & $\geq$ 0.2 & 0.353111\\ \hline 
+ERC & 147.0 & 153.0 & $\geq$ 0.2 & 1\\ \hline 
+ERCC & 117.0 & 183.0 & $\geq$ 0.2 & 1\\ \hline 
+SVR & 58.0 & 242.0 & $\geq$ 0.2 & 1\\ \hline 
+SVRRC & 33.0 & 267.0 & $\geq$ 0.2 & 1\\ \hline 
+
+\end{tabular}
+\caption{Results obtained by the Wilcoxon test for algorithm MORF}
+\end{table}
+
+\subsection{Confidence intervals for Median of diferences}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.90 & Confidence interval & Exact confidence \\ \hline 
+SVRCC & [0.11495 , 0.44425] & 0.9049\\ \hline 
+ST & [-0.0472 , 0.09465] & 0.9049\\ \hline 
+MTS & [-0.04005 , 0.082] & 0.9049\\ \hline 
+MTSC & [-0.05045 , 0.08735] & 0.9049\\ \hline 
+RC & [-0.11995 , 0.04385] & 0.9049\\ \hline 
+ERC & [-0.0758 , 0.08125] & 0.9049\\ \hline 
+ERCC & [-0.03185 , 0.1136] & 0.9049\\ \hline 
+SVR & [0.04855 , 0.4195] & 0.9049\\ \hline 
+SVRRC & [0.0722 , 0.4444] & 0.9049\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm MORF ($\alpha$=0.90)}
+\end{table}
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.95 & Confidence interval & Exact confidence \\ \hline 
+SVRCC & [0.10185 , 0.4789] & 0.95094\\ \hline 
+ST & [-0.05875 , 0.1055] & 0.95094\\ \hline 
+MTS & [-0.05475 , 0.0967] & 0.95094\\ \hline 
+MTSC & [-0.05625 , 0.10085] & 0.95094\\ \hline 
+RC & [-0.1452 , 0.0547] & 0.95094\\ \hline 
+ERC & [-0.0912 , 0.10425] & 0.95094\\ \hline 
+ERCC & [-0.03705 , 0.13145] & 0.95094\\ \hline 
+SVR & [0.0374 , 0.445] & 0.95094\\ \hline 
+SVRRC & [0.06615 , 0.4619] & 0.95094\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm MORF ($\alpha$=0.95)}
+\end{table}
+
+ \clearpage 
+
+
+\section{Detailed results for ST}
+
+
+\subsection{Results}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|c|c|}
+\hline
+ VS & $R^{+}$ & $R^{-}$ & Exact P-value & Asymptotic P-value \\ \hline 
+SVRCC & 59.0 & 241.0 & $\geq$ 0.2 & 1\\ \hline 
+MORF & 172.0 & 128.0 & $\geq$ 0.2 & 0.520317\\ \hline 
+MTS & 154.5 & 145.5 & $\geq$ 0.2 & 0.885999\\ \hline 
+MTSC & 152.0 & 148.0 & $\geq$ 0.2 & 0.943057\\ \hline 
+RC & 272.0 & 28.0 & 1.7548E-4 & 0.000444\\ \hline 
+ERC & 178.0 & 122.0 & $\geq$ 0.2 & 0.415481\\ \hline 
+ERCC & 80.0 & 220.0 & $\geq$ 0.2 & 1\\ \hline 
+SVR & 89.0 & 211.0 & $\geq$ 0.2 & 1\\ \hline 
+SVRRC & 69.0 & 231.0 & $\geq$ 0.2 & 1\\ \hline 
+
+\end{tabular}
+\caption{Results obtained by the Wilcoxon test for algorithm ST}
+\end{table}
+
+\subsection{Confidence intervals for Median of diferences}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.90 & Confidence interval & Exact confidence \\ \hline 
+SVRCC & [0.037 , 0.40205] & 0.9049\\ \hline 
+MORF & [-0.09465 , 0.0472] & 0.9049\\ \hline 
+MTS & [-0.0308 , 0.0388] & 0.9049\\ \hline 
+MTSC & [-0.01565 , 0.0304] & 0.9049\\ \hline 
+RC & [-0.0566 , -0.01125] & 0.9049\\ \hline 
+ERC & [-0.0209 , 0.0078] & 0.9049\\ \hline 
+ERCC & [0.0016 , 0.038] & 0.9049\\ \hline 
+SVR & [0.0086 , 0.3492] & 0.9049\\ \hline 
+SVRRC & [0.03155 , 0.40225] & 0.9049\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm ST ($\alpha$=0.90)}
+\end{table}
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.95 & Confidence interval & Exact confidence \\ \hline 
+SVRCC & [0.02695 , 0.45065] & 0.95094\\ \hline 
+MORF & [-0.1055 , 0.05875] & 0.95094\\ \hline 
+MTS & [-0.03505 , 0.0437] & 0.95094\\ \hline 
+MTSC & [-0.0189 , 0.03935] & 0.95094\\ \hline 
+RC & [-0.06135 , -0.0097] & 0.95094\\ \hline 
+ERC & [-0.0236 , 0.0104] & 0.95094\\ \hline 
+ERCC & [0.00015 , 0.04705] & 0.95094\\ \hline 
+SVR & [-0.01295 , 0.3708] & 0.95094\\ \hline 
+SVRRC & [0.01895 , 0.4281] & 0.95094\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm ST ($\alpha$=0.95)}
+\end{table}
+
+ \clearpage 
+
+
+\section{Detailed results for MTS}
+
+
+\subsection{Results}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|c|c|}
+\hline
+ VS & $R^{+}$ & $R^{-}$ & Exact P-value & Asymptotic P-value \\ \hline 
+SVRCC & 76.0 & 224.0 & $\geq$ 0.2 & 1\\ \hline 
+MORF & 167.0 & 133.0 & $\geq$ 0.2 & 0.617075\\ \hline 
+ST & 145.5 & 154.5 & $\geq$ 0.2 & 1\\ \hline 
+MTSC & 147.0 & 153.0 & $\geq$ 0.2 & 1\\ \hline 
+RC & 222.0 & 78.0 & 0.03948 & 0.038319\\ \hline 
+ERC & 149.0 & 151.0 & $\geq$ 0.2 & 1\\ \hline 
+ERCC & 122.0 & 178.0 & $\geq$ 0.2 & 1\\ \hline 
+SVR & 105.0 & 195.0 & $\geq$ 0.2 & 1\\ \hline 
+SVRRC & 82.0 & 218.0 & $\geq$ 0.2 & 1\\ \hline 
+
+\end{tabular}
+\caption{Results obtained by the Wilcoxon test for algorithm MTS}
+\end{table}
+
+\subsection{Confidence intervals for Median of diferences}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.90 & Confidence interval & Exact confidence \\ \hline 
+SVRCC & [0.0333 , 0.40985] & 0.9049\\ \hline 
+MORF & [-0.082 , 0.04005] & 0.9049\\ \hline 
+ST & [-0.0388 , 0.0308] & 0.9049\\ \hline 
+MTSC & [-0.03705 , 0.02205] & 0.9049\\ \hline 
+RC & [-0.06065 , -0.00245] & 0.9049\\ \hline 
+ERC & [-0.05285 , 0.03] & 0.9049\\ \hline 
+ERCC & [-0.01315 , 0.0563] & 0.9049\\ \hline 
+SVR & [-0.02525 , 0.37975] & 0.9049\\ \hline 
+SVRRC & [0.0244 , 0.4018] & 0.9049\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm MTS ($\alpha$=0.90)}
+\end{table}
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.95 & Confidence interval & Exact confidence \\ \hline 
+SVRCC & [0.01665 , 0.4577] & 0.95094\\ \hline 
+MORF & [-0.0967 , 0.05475] & 0.95094\\ \hline 
+ST & [-0.0437 , 0.03505] & 0.95094\\ \hline 
+MTSC & [-0.04235 , 0.03255] & 0.95094\\ \hline 
+RC & [-0.10245 , -0.0008] & 0.95094\\ \hline 
+ERC & [-0.07215 , 0.0347] & 0.95094\\ \hline 
+ERCC & [-0.01725 , 0.0686] & 0.95094\\ \hline 
+SVR & [-0.04595 , 0.4217] & 0.95094\\ \hline 
+SVRRC & [-0.00285 , 0.4597] & 0.95094\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm MTS ($\alpha$=0.95)}
+\end{table}
+
+ \clearpage 
+
+
+\section{Detailed results for MTSC}
+
+
+\subsection{Results}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|c|c|}
+\hline
+ VS & $R^{+}$ & $R^{-}$ & Exact P-value & Asymptotic P-value \\ \hline 
+SVRCC & 74.0 & 226.0 & $\geq$ 0.2 & 1\\ \hline 
+MORF & 172.0 & 128.0 & $\geq$ 0.2 & 0.520317\\ \hline 
+ST & 148.0 & 152.0 & $\geq$ 0.2 & 1\\ \hline 
+MTS & 153.0 & 147.0 & $\geq$ 0.2 & 0.920344\\ \hline 
+RC & 221.0 & 79.0 & 0.04248 & 0.041067\\ \hline 
+ERC & 167.0 & 133.0 & $\geq$ 0.2 & 0.617075\\ \hline 
+ERCC & 75.0 & 225.0 & $\geq$ 0.2 & 1\\ \hline 
+SVR & 95.0 & 205.0 & $\geq$ 0.2 & 1\\ \hline 
+SVRRC & 79.0 & 221.0 & $\geq$ 0.2 & 1\\ \hline 
+
+\end{tabular}
+\caption{Results obtained by the Wilcoxon test for algorithm MTSC}
+\end{table}
+
+\subsection{Confidence intervals for Median of diferences}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.90 & Confidence interval & Exact confidence \\ \hline 
+SVRCC & [0.03055 , 0.365] & 0.9049\\ \hline 
+MORF & [-0.08735 , 0.05045] & 0.9049\\ \hline 
+ST & [-0.0304 , 0.01565] & 0.9049\\ \hline 
+MTS & [-0.02205 , 0.03705] & 0.9049\\ \hline 
+RC & [-0.07615 , -0.00325] & 0.9049\\ \hline 
+ERC & [-0.0394 , 0.0082] & 0.9049\\ \hline 
+ERCC & [0.0034 , 0.03125] & 0.9049\\ \hline 
+SVR & [-0.0082 , 0.33825] & 0.9049\\ \hline 
+SVRRC & [0.02465 , 0.3618] & 0.9049\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm MTSC ($\alpha$=0.90)}
+\end{table}
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.95 & Confidence interval & Exact confidence \\ \hline 
+SVRCC & [0.01115 , 0.38195] & 0.95094\\ \hline 
+MORF & [-0.10085 , 0.05625] & 0.95094\\ \hline 
+ST & [-0.03935 , 0.0189] & 0.95094\\ \hline 
+MTS & [-0.03255 , 0.04235] & 0.95094\\ \hline 
+RC & [-0.0828 , -0.00105] & 0.95094\\ \hline 
+ERC & [-0.0669 , 0.0104] & 0.95094\\ \hline 
+ERCC & [0.0014 , 0.03435] & 0.95094\\ \hline 
+SVR & [-0.02945 , 0.3644] & 0.95094\\ \hline 
+SVRRC & [0.00545 , 0.39155] & 0.95094\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm MTSC ($\alpha$=0.95)}
+\end{table}
+
+ \clearpage 
+
+
+\section{Detailed results for RC}
+
+
+\subsection{Results}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|c|c|}
+\hline
+ VS & $R^{+}$ & $R^{-}$ & Exact P-value & Asymptotic P-value \\ \hline 
+SVRCC & 37.0 & 263.0 & $\geq$ 0.2 & 1\\ \hline 
+MORF & 118.0 & 182.0 & $\geq$ 0.2 & 1\\ \hline 
+ST & 28.0 & 272.0 & $\geq$ 0.2 & 1\\ \hline 
+MTS & 78.0 & 222.0 & $\geq$ 0.2 & 1\\ \hline 
+MTSC & 79.0 & 221.0 & $\geq$ 0.2 & 1\\ \hline 
+ERC & 66.0 & 234.0 & $\geq$ 0.2 & 1\\ \hline 
+ERCC & 29.5 & 270.5 & $\geq$ 0.2 & 1\\ \hline 
+SVR & 58.0 & 242.0 & $\geq$ 0.2 & 1\\ \hline 
+SVRRC & 46.0 & 254.0 & $\geq$ 0.2 & 1\\ \hline 
+
+\end{tabular}
+\caption{Results obtained by the Wilcoxon test for algorithm RC}
+\end{table}
+
+\subsection{Confidence intervals for Median of diferences}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.90 & Confidence interval & Exact confidence \\ \hline 
+SVRCC & [0.09335 , 0.50745] & 0.9049\\ \hline 
+MORF & [-0.04385 , 0.11995] & 0.9049\\ \hline 
+ST & [0.01125 , 0.0566] & 0.9049\\ \hline 
+MTS & [0.00245 , 0.06065] & 0.9049\\ \hline 
+MTSC & [0.00325 , 0.07615] & 0.9049\\ \hline 
+ERC & [0.00275 , 0.0431] & 0.9049\\ \hline 
+ERCC & [0.0138 , 0.09155] & 0.9049\\ \hline 
+SVR & [0.0499 , 0.4076] & 0.9049\\ \hline 
+SVRRC & [0.08325 , 0.4531] & 0.9049\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm RC ($\alpha$=0.90)}
+\end{table}
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.95 & Confidence interval & Exact confidence \\ \hline 
+SVRCC & [0.0658 , 0.5322] & 0.95094\\ \hline 
+MORF & [-0.0547 , 0.1452] & 0.95094\\ \hline 
+ST & [0.0097 , 0.06135] & 0.95094\\ \hline 
+MTS & [0.0008 , 0.10245] & 0.95094\\ \hline 
+MTSC & [0.00105 , 0.0828] & 0.95094\\ \hline 
+ERC & [0.0017 , 0.0473] & 0.95094\\ \hline 
+ERCC & [0.01105 , 0.1007] & 0.95094\\ \hline 
+SVR & [0.03705 , 0.44055] & 0.95094\\ \hline 
+SVRRC & [0.06395 , 0.50335] & 0.95094\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm RC ($\alpha$=0.95)}
+\end{table}
+
+ \clearpage 
+
+
+\section{Detailed results for ERC}
+
+
+\subsection{Results}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|c|c|}
+\hline
+ VS & $R^{+}$ & $R^{-}$ & Exact P-value & Asymptotic P-value \\ \hline 
+SVRCC & 66.0 & 234.0 & $\geq$ 0.2 & 1\\ \hline 
+MORF & 153.0 & 147.0 & $\geq$ 0.2 & 0.920344\\ \hline 
+ST & 122.0 & 178.0 & $\geq$ 0.2 & 1\\ \hline 
+MTS & 151.0 & 149.0 & $\geq$ 0.2 & 0.965815\\ \hline 
+MTSC & 133.0 & 167.0 & $\geq$ 0.2 & 1\\ \hline 
+RC & 234.0 & 66.0 & 0.015044 & 0.015766\\ \hline 
+ERCC & 79.0 & 221.0 & $\geq$ 0.2 & 1\\ \hline 
+SVR & 86.0 & 214.0 & $\geq$ 0.2 & 1\\ \hline 
+SVRRC & 74.0 & 226.0 & $\geq$ 0.2 & 1\\ \hline 
+
+\end{tabular}
+\caption{Results obtained by the Wilcoxon test for algorithm ERC}
+\end{table}
+
+\subsection{Confidence intervals for Median of diferences}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.90 & Confidence interval & Exact confidence \\ \hline 
+SVRCC & [0.0318 , 0.43815] & 0.9049\\ \hline 
+MORF & [-0.08125 , 0.0758] & 0.9049\\ \hline 
+ST & [-0.0078 , 0.0209] & 0.9049\\ \hline 
+MTS & [-0.03 , 0.05285] & 0.9049\\ \hline 
+MTSC & [-0.0082 , 0.0394] & 0.9049\\ \hline 
+RC & [-0.0431 , -0.00275] & 0.9049\\ \hline 
+ERCC & [0.00305 , 0.0686] & 0.9049\\ \hline 
+SVR & [0.00835 , 0.3764] & 0.9049\\ \hline 
+SVRRC & [0.0285 , 0.4146] & 0.9049\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm ERC ($\alpha$=0.90)}
+\end{table}
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.95 & Confidence interval & Exact confidence \\ \hline 
+SVRCC & [0.0185 , 0.4681] & 0.95094\\ \hline 
+MORF & [-0.10425 , 0.0912] & 0.95094\\ \hline 
+ST & [-0.0104 , 0.0236] & 0.95094\\ \hline 
+MTS & [-0.0347 , 0.07215] & 0.95094\\ \hline 
+MTSC & [-0.0104 , 0.0669] & 0.95094\\ \hline 
+RC & [-0.0473 , -0.0017] & 0.95094\\ \hline 
+ERCC & [0.0006 , 0.0781] & 0.95094\\ \hline 
+SVR & [-0.008 , 0.3991] & 0.95094\\ \hline 
+SVRRC & [0.0196 , 0.4524] & 0.95094\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm ERC ($\alpha$=0.95)}
+\end{table}
+
+ \clearpage 
+
+
+\section{Detailed results for ERCC}
+
+
+\subsection{Results}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|c|c|}
+\hline
+ VS & $R^{+}$ & $R^{-}$ & Exact P-value & Asymptotic P-value \\ \hline 
+SVRCC & 76.0 & 224.0 & $\geq$ 0.2 & 1\\ \hline 
+MORF & 183.0 & 117.0 & $\geq$ 0.2 & 0.338495\\ \hline 
+ST & 220.0 & 80.0 & 0.04568 & 0.04398\\ \hline 
+MTS & 178.0 & 122.0 & $\geq$ 0.2 & 0.415481\\ \hline 
+MTSC & 225.0 & 75.0 & 0.03148 & 0.030995\\ \hline 
+RC & 270.5 & 29.5 & 2.2219999999999998E-4 & 0.000521\\ \hline 
+ERC & 221.0 & 79.0 & 0.04248 & 0.041067\\ \hline 
+SVR & 101.0 & 199.0 & $\geq$ 0.2 & 1\\ \hline 
+SVRRC & 86.0 & 214.0 & $\geq$ 0.2 & 1\\ \hline 
+
+\end{tabular}
+\caption{Results obtained by the Wilcoxon test for algorithm ERCC}
+\end{table}
+
+\subsection{Confidence intervals for Median of diferences}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.90 & Confidence interval & Exact confidence \\ \hline 
+SVRCC & [0.02165 , 0.35335] & 0.9049\\ \hline 
+MORF & [-0.1136 , 0.03185] & 0.9049\\ \hline 
+ST & [-0.038 , -0.0016] & 0.9049\\ \hline 
+MTS & [-0.0563 , 0.01315] & 0.9049\\ \hline 
+MTSC & [-0.03125 , -0.0034] & 0.9049\\ \hline 
+RC & [-0.09155 , -0.0138] & 0.9049\\ \hline 
+ERC & [-0.0686 , -0.00305] & 0.9049\\ \hline 
+SVR & [-0.01995 , 0.3225] & 0.9049\\ \hline 
+SVRRC & [0.0147 , 0.3416] & 0.9049\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm ERCC ($\alpha$=0.90)}
+\end{table}
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.95 & Confidence interval & Exact confidence \\ \hline 
+SVRCC & [0.0092 , 0.36935] & 0.95094\\ \hline 
+MORF & [-0.13145 , 0.03705] & 0.95094\\ \hline 
+ST & [-0.04705 , -0.00015] & 0.95094\\ \hline 
+MTS & [-0.0686 , 0.01725] & 0.95094\\ \hline 
+MTSC & [-0.03435 , -0.0014] & 0.95094\\ \hline 
+RC & [-0.1007 , -0.01105] & 0.95094\\ \hline 
+ERC & [-0.0781 , -0.0006] & 0.95094\\ \hline 
+SVR & [-0.039 , 0.35035] & 0.95094\\ \hline 
+SVRRC & [-0.0138 , 0.371] & 0.95094\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm ERCC ($\alpha$=0.95)}
+\end{table}
+
+ \clearpage 
+
+
+\section{Detailed results for SVR}
+
+
+\subsection{Results}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|c|c|}
+\hline
+ VS & $R^{+}$ & $R^{-}$ & Exact P-value & Asymptotic P-value \\ \hline 
+SVRCC & 38.0 & 262.0 & $\geq$ 0.2 & 1\\ \hline 
+MORF & 242.0 & 58.0 & 0.00719 & 0.008221\\ \hline 
+ST & 211.0 & 89.0 & 0.08392 & 0.078893\\ \hline 
+MTS & 195.0 & 105.0 & $\geq$ 0.2 & 0.193601\\ \hline 
+MTSC & 205.0 & 95.0 & 0.12084 & 0.112804\\ \hline 
+RC & 242.0 & 58.0 & 0.00719 & 0.008221\\ \hline 
+ERC & 214.0 & 86.0 & 0.0691 & 0.06535\\ \hline 
+ERCC & 199.0 & 101.0 & 0.1688 & 0.157278\\ \hline 
+SVRRC & 54.0 & 246.0 & $\geq$ 0.2 & 1\\ \hline 
+
+\end{tabular}
+\caption{Results obtained by the Wilcoxon test for algorithm SVR}
+\end{table}
+
+\subsection{Confidence intervals for Median of diferences}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.90 & Confidence interval & Exact confidence \\ \hline 
+SVRCC & [0.02525 , 0.08015] & 0.9049\\ \hline 
+MORF & [-0.4195 , -0.04855] & 0.9049\\ \hline 
+ST & [-0.3492 , -0.0086] & 0.9049\\ \hline 
+MTS & [-0.37975 , 0.02525] & 0.9049\\ \hline 
+MTSC & [-0.33825 , 0.0082] & 0.9049\\ \hline 
+RC & [-0.4076 , -0.0499] & 0.9049\\ \hline 
+ERC & [-0.3764 , -0.00835] & 0.9049\\ \hline 
+ERCC & [-0.3225 , 0.01995] & 0.9049\\ \hline 
+SVRRC & [0.01475 , 0.0531] & 0.9049\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm SVR ($\alpha$=0.90)}
+\end{table}
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.95 & Confidence interval & Exact confidence \\ \hline 
+SVRCC & [0.02 , 0.0867] & 0.95094\\ \hline 
+MORF & [-0.445 , -0.0374] & 0.95094\\ \hline 
+ST & [-0.3708 , 0.01295] & 0.95094\\ \hline 
+MTS & [-0.4217 , 0.04595] & 0.95094\\ \hline 
+MTSC & [-0.3644 , 0.02945] & 0.95094\\ \hline 
+RC & [-0.44055 , -0.03705] & 0.95094\\ \hline 
+ERC & [-0.3991 , 0.008] & 0.95094\\ \hline 
+ERCC & [-0.35035 , 0.039] & 0.95094\\ \hline 
+SVRRC & [0.0119 , 0.0593] & 0.95094\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm SVR ($\alpha$=0.95)}
+\end{table}
+
+ \clearpage 
+
+
+\section{Detailed results for SVRRC}
+
+
+\subsection{Results}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|c|c|}
+\hline
+ VS & $R^{+}$ & $R^{-}$ & Exact P-value & Asymptotic P-value \\ \hline 
+SVRCC & 55.0 & 245.0 & $\geq$ 0.2 & 1\\ \hline 
+MORF & 267.0 & 33.0 & 3.728E-4 & 0.000788\\ \hline 
+ST & 231.0 & 69.0 & 0.019442 & 0.019882\\ \hline 
+MTS & 218.0 & 82.0 & 0.05264 & 0.050331\\ \hline 
+MTSC & 221.0 & 79.0 & 0.04248 & 0.041067\\ \hline 
+RC & 254.0 & 46.0 & 0.002 & 0.002829\\ \hline 
+ERC & 226.0 & 74.0 & 0.02914 & 0.028837\\ \hline 
+ERCC & 214.0 & 86.0 & 0.0691 & 0.06535\\ \hline 
+SVR & 246.0 & 54.0 & 0.00481 & 0.005831\\ \hline 
+
+\end{tabular}
+\caption{Results obtained by the Wilcoxon test for algorithm SVRRC}
+\end{table}
+
+\subsection{Confidence intervals for Median of diferences}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.90 & Confidence interval & Exact confidence \\ \hline 
+SVRCC & [0.00795 , 0.03535] & 0.9049\\ \hline 
+MORF & [-0.4444 , -0.0722] & 0.9049\\ \hline 
+ST & [-0.40225 , -0.03155] & 0.9049\\ \hline 
+MTS & [-0.4018 , -0.0244] & 0.9049\\ \hline 
+MTSC & [-0.3618 , -0.02465] & 0.9049\\ \hline 
+RC & [-0.4531 , -0.08325] & 0.9049\\ \hline 
+ERC & [-0.4146 , -0.0285] & 0.9049\\ \hline 
+ERCC & [-0.3416 , -0.0147] & 0.9049\\ \hline 
+SVR & [-0.0531 , -0.01475] & 0.9049\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm SVRRC ($\alpha$=0.90)}
+\end{table}
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.95 & Confidence interval & Exact confidence \\ \hline 
+SVRCC & [0.0061 , 0.039] & 0.95094\\ \hline 
+MORF & [-0.4619 , -0.06615] & 0.95094\\ \hline 
+ST & [-0.4281 , -0.01895] & 0.95094\\ \hline 
+MTS & [-0.4597 , 0.00285] & 0.95094\\ \hline 
+MTSC & [-0.39155 , -0.00545] & 0.95094\\ \hline 
+RC & [-0.50335 , -0.06395] & 0.95094\\ \hline 
+ERC & [-0.4524 , -0.0196] & 0.95094\\ \hline 
+ERCC & [-0.371 , 0.0138] & 0.95094\\ \hline 
+SVR & [-0.0593 , -0.0119] & 0.95094\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm SVRRC ($\alpha$=0.95)}
+\end{table}
+
+ \clearpage 
+
+
+\end{document}

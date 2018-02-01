@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<labels xmlns="http://mulan.sourceforge.net/labels">
+<label name="SLUMP_cm"></label>
+<label name="FLOW_cm"></label>
+<label name="Compressive_Strength_Mpa"></label>
+</labels>

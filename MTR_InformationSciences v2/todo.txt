@@ -1,0 +1,45 @@
+@ARTICLE{Zhu2017292,
+author={Zhu, F. and Yang, J. and Gao, J. and Xu, C. and Xu, S. and Gao, C.},
+title={Finding the samples near the decision plane for support vector learning},
+journal={Information Sciences},
+year={2017},
+volume={382-383},
+pages={292-307}
+}
+
+@ARTICLE{Ding20152521,
+author={Ding, Y. and Cheng, L. and Pedrycz, W. and Hao, K.},
+title={Global Nonlinear Kernel Prediction for Large Data Set With a Particle Swarm-Optimized Interval Support Vector Regression},
+journal={IEEE Transactions on Neural Networks and Learning Systems},
+year={2015},
+volume={26},
+number={10},
+pages={2521-2534}
+}
+
+@ARTICLE{Chen20152502,
+author={Chen, J. and Pedrycz, W. and Ha, M. and Ma, L.},
+title={Set-valued samples based support vector regression and its applications},
+journal={Expert Systems with Applications},
+year={2015},
+volume={42},
+number={5},
+pages={2502-2509}
+}
+
+
+
+c&p from another paper, edit and include in the background, add the reference. Include becuse it talks about finding correlations among targets.
+
+Zhang et al. 32 presented a multi-output support vector regression approach based on
+problem transformation. It builds a multi-output model that takes into account the
+correlations between all the targets using the vector virtualization method. Basically,
+it extends the original feature space and expresses the multi-output problem as an
+equivalent single-output problem, so that it can then be solved using the single-output
+least squares support vector regression machines (LS-SVR) algorithm.
+
+
+Zhang W, Liu X, Ding Y, Shi D. Multi-output LS-SVR machine in extended feature
+space. In: Proceedings of the 2012 IEEE International Conference on Computational
+Intelligence for Measurement Systems and Applications, IEEE Press, Tianjin,
+China; 2012, 130–134.

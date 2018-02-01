@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<labels xmlns="http://mulan.sourceforge.net/labels">
+<label name="Outcome_M1"></label>
+<label name="Outcome_M2"></label>
+<label name="Outcome_M3"></label>
+<label name="Outcome_M4"></label>
+<label name="Outcome_M5"></label>
+<label name="Outcome_M6"></label>
+<label name="Outcome_M7"></label>
+<label name="Outcome_M8"></label>
+<label name="Outcome_M9"></label>
+<label name="Outcome_M10"></label>
+<label name="Outcome_M11"></label>
+<label name="Outcome_M12"></label>
+</labels>

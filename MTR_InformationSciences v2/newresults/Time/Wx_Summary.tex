@@ -1,0 +1,123 @@
+\documentclass[a4paper,10pt]{article}
+\title{Wilcoxon Signed Ranks test.}
+\usepackage{rotating}
+\usepackage{textcomp}
+\date{\today}
+\author{KEEL non-parametric statistical module}
+\begin{document}
+
+\pagestyle{empty}
+\maketitle
+\thispagestyle{empty}
+
+
+\begin{sidewaystable}[!htp]
+\centering\scriptsize
+\resizebox{\textwidth}{!}{\begin{tabular}{
+|c|r|r|r|r|r|r|r|r|r|r|}
+\hline
+&(1) &(2) &(3) &(4) &(5) &(6) &(7) &(8) &(9) &(10) \\
+\hline
+SVRCC (1)& -& 161.0& 203.5& 286.0& 300.0& 201.0& 297.0& 300.0& 5.0& 300.0\\
+\hline
+MORF (2)& 139.0& -& 114.0& 200.0& 267.0& 120.0& 234.0& 297.0& 75.0& 234.0\\
+\hline
+ST (3)& 96.5& 186.0& -& 300.0& 300.0& 78.0& 300.0& 300.0& 78.5& 288.5\\
+\hline
+MTS (4)& 14.0& 100.0& 0.0& -& 300.0& 0.0& 278.0& 300.0& 0.0& 255.0\\
+\hline
+MTSC (5)& 0.0& 33.0& 0.0& 0.0& -& 0.0& 90.0& 300.0& 0.0& 103.0\\
+\hline
+RC (6)& 99.0& 180.0& 222.0& 300.0& 300.0& -& 300.0& 300.0& 71.0& 293.0\\
+\hline
+ERC (7)& 3.0& 66.0& 0.0& 22.0& 210.0& 0.0& -& 300.0& 0.0& 173.0\\
+\hline
+ERCC (8)& 0.0& 3.0& 0.0& 0.0& 0.0& 0.0& 0.0& -& 0.0& 0.0\\
+\hline
+SVR (9)& 295.0& 225.0& 221.5& 300.0& 300.0& 229.0& 300.0& 300.0& -& 300.0\\
+\hline
+SVRRC (10)& 0.0& 66.0& 11.5& 45.0& 197.0& 7.0& 127.0& 300.0& 0.0& -\\
+\hline
+
+\end{tabular}}
+\caption{Ranks computed by the Wilcoxon test}
+
+\end{sidewaystable}
+
+ \clearpage 
+
+
+\begin{sidewaystable}[!htp]
+\centering\scriptsize
+\resizebox{\textwidth}{!}{\begin{tabular}{
+|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+&(1) &(2) &(3) &(4) &(5) &(6) &(7) &(8) &(9) &(10) \\
+\hline
+SVRCC (1)& -&  &  & \textbullet & \textbullet &  & \textbullet & \textbullet & \textopenbullet & \textbullet \\
+\hline
+MORF (2)&  & -&  &  & \textbullet &  & \textbullet & \textbullet & \textopenbullet & \textbullet \\
+\hline
+ST (3)&  &  & -& \textbullet & \textbullet & \textopenbullet & \textbullet & \textbullet & \textopenbullet & \textbullet \\
+\hline
+MTS (4)& \textopenbullet &  & \textopenbullet & -& \textbullet & \textopenbullet & \textbullet & \textbullet & \textopenbullet & \textbullet \\
+\hline
+MTSC (5)& \textopenbullet & \textopenbullet & \textopenbullet & \textopenbullet & -& \textopenbullet & \textopenbullet & \textbullet & \textopenbullet &  \\
+\hline
+RC (6)&  &  & \textbullet & \textbullet & \textbullet & -& \textbullet & \textbullet & \textopenbullet & \textbullet \\
+\hline
+ERC (7)& \textopenbullet & \textopenbullet & \textopenbullet & \textopenbullet &  & \textopenbullet & -& \textbullet & \textopenbullet &  \\
+\hline
+ERCC (8)& \textopenbullet & \textopenbullet & \textopenbullet & \textopenbullet & \textopenbullet & \textopenbullet & \textopenbullet & -& \textopenbullet & \textopenbullet \\
+\hline
+SVR (9)& \textbullet & \textbullet & \textbullet & \textbullet & \textbullet & \textbullet & \textbullet & \textbullet & -& \textbullet \\
+\hline
+SVRRC (10)& \textopenbullet & \textopenbullet & \textopenbullet & \textopenbullet &  & \textopenbullet &  & \textbullet & \textopenbullet & -\\
+\hline
+
+\end{tabular}}
+\caption{Summary of the Wilcoxon test. \textbullet = the method in the row improves the method of the column. \textopenbullet = the method in the column improves the method of the row. Upper diagonal of level significance $\alpha=0.9$,Lower diagonal level of significance $\alpha=0.95$}
+
+\end{sidewaystable}
+
+ \clearpage 
+
+
+\begin{table}[!htp]
+\centering\scriptsize
+\begin{tabular}{
+|c|c|c|c|c|}
+\hline
+&\multicolumn{2}{c|}{$\alpha=0.9$} & \multicolumn{2}{c|}{$\alpha=0.95$}\\\hline
+Method & + & $\pm$ & + & $\pm$ \\
+\hline
+SVRCC & 5 & 8 & 5 & 8\\
+\hline
+MORF & 4 & 8 & 4 & 8\\
+\hline
+ST & 5 & 7 & 5 & 7\\
+\hline
+MTS & 4 & 5 & 4 & 5\\
+\hline
+MTSC & 1 & 2 & 1 & 3\\
+\hline
+RC & 6 & 8 & 6 & 8\\
+\hline
+ERC & 2 & 3 & 1 & 3\\
+\hline
+ERCC & 0 & 0 & 0 & 0\\
+\hline
+SVR & 9 & 9 & 9 & 9\\
+\hline
+SVRRC & 1 & 3 & 1 & 3\\
+\hline
+
+\end{tabular}
+\caption{Wilcoxon test summary results}
+
+\end{table}
+
+ \clearpage 
+
+
+\end{document}

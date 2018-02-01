@@ -1,0 +1,75 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{graphicx}
+\usepackage{lscape}
+\title{Output tables for 1xN statistical comparisons.}
+\author{}
+\date{\today}
+\begin{document}
+\begin{landscape}
+\pagestyle{empty}
+\maketitle
+\thispagestyle{empty}
+
+\section{Average rankings of Friedman test}
+
+
+Average ranks obtained by each method in the Friedman test.
+
+\begin{table}[!htp]
+\centering
+\begin{tabular}{|c|c|}\hline
+Algorithm&Ranking\\\hline
+SVRCC&2.7917\\MORF&7.5\\ST&5.7708\\MTS&5.9375\\MTSC&6.1667\\RC&7.4375\\ERC&6.375\\ERCC&4.9792\\SVR&4.7708\\SVRRC&3.2708\\\hline\end{tabular}
+\caption{Average Rankings of the algorithms (Friedman)}
+\end{table}
+
+Friedman statistic (distributed according to chi-square with 9 degrees of freedom): 58.479545. \newline P-value computed by Friedman Test: 0.\newline
+
+Iman and Davenport statistic (distributed according to F-distribution with 9 and 207 degrees of freedom): 8.538761. \newline P-value computed by Iman and Daveport Test: 0.000000000076.\newline
+
+
+\newpage
+
+\section{Post hoc comparison (Friedman)}
+
+
+P-values obtained in by applying post hoc methods over the results of Friedman procedure.
+
+\begin{table}[!htp]
+\centering\footnotesize
+\begin{tabular}{ccccc}
+$i$&algorithm&$z=(R_0 - R_i)/SE$&$p$&Holm \\
+\hline9&MORF&5.387064&0&0.005556\\8&RC&5.315554&0&0.00625\\7&ERC&4.099889&0.000041&0.007143\\6&MTSC&3.861523&0.000113&0.008333\\5&MTS&3.599321&0.000319&0.01\\4&ST&3.408629&0.000653&0.0125\\3&ERCC&2.502839&0.01232&0.016667\\2&SVR&2.264474&0.023545&0.025\\1&SVRRC&0.548241&0.583526&0.05\\\hline
+\end{tabular}
+\caption{Post Hoc comparison Table for $\alpha=0.05$ (FRIEDMAN)}
+\end{table}Bonferroni-Dunn's procedure rejects those hypotheses that have an unadjusted p-value $\le0.005556$.
+
+Holm's procedure rejects those hypotheses that have an unadjusted p-value $\le0.05$.
+
+
+\newpage
+
+\section{Adjusted P-Values (Friedman)}
+
+
+Adjusted P-values obtained through the application of the post hoc methods (Friedman).
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{ccccc}
+i&algorithm&unadjusted $p$&$p_{Bonf}$&$p_{Holm}$\\
+\hline1&MORF&0&0.000001&0.000001\\2&RC&0&0.000001&0.000001\\3&ERC&0.000041&0.000372&0.000289\\4&MTSC&0.000113&0.001014&0.000676\\5&MTS&0.000319&0.002871&0.001595\\6&ST&0.000653&0.005876&0.002612\\7&ERCC&0.01232&0.110881&0.03696\\8&SVR&0.023545&0.211905&0.04709\\9&SVRRC&0.583526&5.251738&0.583526\\\hline
+\end{tabular}
+\caption{Adjusted $p$-values (FRIEDMAN) (I)}
+\end{table}
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{ccc}
+i&algorithm&unadjusted $p$\\
+\hline1&MORF&0\\2&RC&0\\3&ERC&0.000041\\4&MTSC&0.000113\\5&MTS&0.000319\\6&ST&0.000653\\7&ERCC&0.01232\\8&SVR&0.023545\\9&SVRRC&0.583526\\\hline
+\end{tabular}
+\caption{Adjusted $p$-values (FRIEDMAN) (II)}
+\end{table}
+
+\newpage
+\end{landscape}\end{document}
