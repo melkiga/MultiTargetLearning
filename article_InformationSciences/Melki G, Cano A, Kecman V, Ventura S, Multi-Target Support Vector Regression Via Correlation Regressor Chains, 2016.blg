@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Melki G, Cano A, Kecman V, Ventura S, Multi-Target Support Vector Regression Via Correlation Regressor Chains, 2016.aux
+The style file: model1-num-names.bst
+Database file #1: references.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 46 entries,
+            2910 wiz_defined-function locations,
+            928 strings with 12976 characters,
+and the built_in function-call counts, 29397 in all, are:
+= -- 2215
+> -- 1299
+< -- 16
++ -- 500
+- -- 438
+* -- 3695
+:= -- 4379
+add.period$ -- 48
+call.type$ -- 46
+change.case$ -- 375
+chr.to.int$ -- 46
+cite$ -- 46
+duplicate$ -- 1888
+empty$ -- 1902
+format.name$ -- 580
+if$ -- 5295
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 458
+newline$ -- 237
+num.names$ -- 184
+pop$ -- 461
+preamble$ -- 1
+purify$ -- 376
+quote$ -- 0
+skip$ -- 481
+stack$ -- 0
+substring$ -- 1547
+swap$ -- 1672
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 405
+warning$ -- 0
+while$ -- 199
+width$ -- 0
+write$ -- 606

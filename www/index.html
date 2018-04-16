@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <title>Multi-Target Support Vector Regression Via Correlation Regressor Chains</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=windows-1252">
+    <LINK REL="STYLESHEET" HREF="table.css">
+</head>
+
+<BODY width="90%">
+
+<h1>Multi-Target Support Vector Regression Via Correlation Regressor Chains</h1>
+
+This website contains additional material to the paper titled <i>Multi-Target Support Vector Regression Via Correlation Regressor Chains</i> submitted to Information Sciences.
+
+<h2>Abstract</h2>
+
+<p align=justify>
+Multi-target regression is a challenging task that consists of creating predictive models for problems with multiple continuous target outputs. Despite the increasing attention on multi-label classification, there are fewer studies concerning multi-target (MT) regression. The current leading MT models are based on ensembles of regressor chains, where random, differently ordered chains of the target variables are created and used to build separate regression models, using the previous target predictions in the chain. The challenges of building MT models stem from trying to capture and exploit possible correlations among the target variables during training. This paper presents three multi-target support vector regression models. The first involves building independent, single-target Support Vector Regression (SVR) models for each output variable. The second builds an ensemble of random chains using the first method as a base model. The third calculates the targets' correlations and forms a maximum correlation chain, which is used to build a single chained support vector regression model, improving the models' prediction performance while reducing the computational complexity. The experimental study evaluates and compares the performance of the three approaches with seven other state-of-the-art multi-target regressors on 24 multi-target datasets. The experimental results are then analyzed using non-parametric statistical tests. The results show that the maximum correlation SVR approach improves the performance of using ensembles of random chains.
+</p>
+
+<h2>Datasets Information</h2>
+
+<p align=justify>
+These datasets have been collected from the <a href=http://mulan.sourceforge.net target=_blank>MULAN</a>, <a href=http://meka.sourceforge.net/ target=_blank>MEKA</a> and <a href=http://computer.njnu.edu.cn/Lab/LABIC/LABIC_Software.html target=_blank>LABIC</a> repository websites and they are very varied in their degree of complexity, number of labels, number of attributes, and number of examples. The datasets are available to <a href="datasets.zip">download</a>.
+</p>
+
+<TABLE CELLPADDING=0 CELLSPACING=0 BORDER="0">
+<tr><td width= 180px style="border: solid 0; border-bottom-width:2px; ">Dataset</td><td width= 100px style="border: solid 0; border-bottom-width:2px; ">Samples</td><td width= 100px style="border: solid 0; border-bottom-width:2px; ">Attributes</td><td width= 100px style="border: solid 0; border-bottom-width:2px; ">Targets</td></tr>
+<tr><td>EDM</td><td>145</td><td>16</td><td>2</td></tr>
+<tr><td>Enb</td><td>768</td><td>8</td><td>2 </td></tr>
+<tr><td>Jura</td><td>359</td><td>11</td><td>7 </td></tr>
+<tr><td>Osales</td><td>639</td><td>413</td><td>12 </td></tr>
+<tr><td>Scpf</td><td>1137</td><td>23</td><td>3 </td></tr>
+<tr><td>Slump</td><td>103</td><td>7</td><td>3 </td></tr>
+<tr><td>Solar Flare 1</td><td>323</td><td>10</td><td>3</td></tr>
+<tr><td>Solar Flare 2</td><td>1,066</td><td>10</td><td>3</td></tr>
+<tr><td>Water Quality</td><td>1,060</td><td>16</td><td>14</td></tr>
+<tr><td>OES97</td><td>323</td><td>263</td><td>16</td></tr>
+<tr><td>OES10</td><td>403</td><td>298</td><td>16</td></tr>
+<tr><td>ATP1d</td><td>201</td><td>411</td><td>6</td></tr>
+<tr><td>ATP7d</td><td>188</td><td>411</td><td>6</td></tr>
+<tr><td>Andro</td><td>49</td><td>30</td><td>6 </td></tr>
+<tr><td>Wisconsin Cancer</td><td>198</td><td>34</td><td>2</td></tr>
+<tr><td>Stock</td><td>950</td><td>10</td><td>3</td></tr>
+<tr><td>California Housing</td><td>20,640</td><td>7</td><td>2</td></tr>
+<tr><td>Puma8NH</td><td>8,192</td><td>8</td><td>3</td></tr>
+<tr><td>Puma32H</td><td>8,192</td><td>32</td><td>6</td></tr>
+<tr><td>Friedman</td><td>500</td><td>25</td><td>6</td></tr>
+<tr><td>Polymer</td><td>41</td><td>10</td><td>4</td></tr>
+<tr><td>M5SPEC</td><td>80</td><td>700</td><td>3</td></tr>
+<tr><td>MP5SPEC</td><td>80</td><td>700</td><td>3</td></tr>
+<tr><td>MP6SPEC</td><td>80</td><td>700</td><td>4</td></tr>
+</table>
+
+
+<h2>Algorithms used in the experimental study</h2>
+
+<p>The implementation of these algorithms is available from the <a href=http://mulan.sourceforge.net target=_blank>MULAN</a> library. <a href="SVRCC.zip">Download</a> the code for SVR, SVRRC and SVRCC proposed in this paper.</p>
+
+<ul>
+<li>MORF: Multi-Objective Decision Trees.</li>
+<li>ST: Single-Target.</li>
+<li>MTS: Multi-Target Stacking.</li>
+<li>MTSC: Multi-Target Stacking Corrected.</li>
+<li>RC: Regression Chain.</li>
+<li>ERC: Ensemble of Random Chains.</li>
+<li>ERCC: Ensemble of Random Chains Corrected.</li>
+<li>SVR: Support Vector Regression.</li>
+<li>SVRRC: Support Vector Regression with Random Chains.</li>
+<li>SVRCC: Support Vector Regression with Correlation Chaining.</li>
+</ul>
+
+<h2>Results</h2>
+
+<p><img border=0 src=1.png /></p>
+<p><img border=0 src=2.png /></p>
+<p><img border=0 src=3.png /></p>
+<p><img border=0 src=4.png /></p>
+<p><img border=0 src=5.png /></p>
+
+</body>
+</html>
