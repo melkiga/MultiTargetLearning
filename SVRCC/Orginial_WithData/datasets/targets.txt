@@ -1,0 +1,7 @@
+flare1 3
+flare2 3
+waterquality 14
+oes97 16
+oes10 16
+atp1d 6
+rf1 8
